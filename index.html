@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hypermart</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+  <div class="main_application">
+    <header>
+      <h1>Hypermart Checkout System</h1>
+      <p>Real-time queue management system</p>
+      <div class="input-group-item">
+        <input type="number" id="itemInput" placeholder="Enter number of items" min="1"/>
+        <button onclick="addCustomer()">Checkout Items</button>
+        <button class="add-counter" onclick="addCounter()"><i class="fa-solid fa-plus"></i></button>
+      </div>
+    </header>
+
+    <div id="counters" class="counters"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
